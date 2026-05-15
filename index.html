@@ -1,0 +1,177 @@
+
+Optimized tool selection```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jared Howard - Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">Jared Howard</h1>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#hero" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-blue-600 transition">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600 transition">Projects</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-600 transition">Experience</a>
+                <a href="#education" class="text-gray-600 hover:text-blue-600 transition">Education</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+            </nav>
+            <button class="md:hidden text-gray-600" onclick="toggleMenu()">☰</button>
+        </div>
+        <nav id="mobile-menu" class="md:hidden bg-white border-t hidden">
+            <div class="container mx-auto px-4 py-2 flex flex-col space-y-2">
+                <a href="#hero" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-blue-600 transition">Skills</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600 transition">Projects</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-600 transition">Experience</a>
+                <a href="#education" class="text-gray-600 hover:text-blue-600 transition">Education</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4">From the Road to Data</h2>
+            <p class="text-xl md:text-2xl mb-8">Independent Contractor Turned Data Analyst</p>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto">After years on the open road as a long-haul trucker and independent contractor, I'm now charting a new course in data analysis and technology, bringing real-world problem-solving to the world of data.</p>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <div class="max-w-3xl mx-auto text-lg leading-relaxed">
+                <p class="mb-4">For over a decade, I navigated the highways as a long-haul trucker and independent contractor, mastering the art of route optimization, time management, and making critical decisions under pressure. These experiences honed my analytical mindset and taught me the value of data-driven choices.</p>
+                <p class="mb-4">Now, I'm transitioning into the exciting world of data analysis and technology. What started as curiosity about the logistics software I used on the road has evolved into a passion for uncovering insights from data. I'm pursuing formal education in data analysis while building practical skills to bridge my hands-on experience with modern tech tools.</p>
+                <p>My unique background gives me a fresh perspective on data challenges, combining real-world operational knowledge with emerging technical expertise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-blue-600">Technical Skills</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Python Programming</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Pandas & NumPy</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>SQL Databases</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Statistical Analysis</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Data Visualization (Matplotlib, Seaborn)</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Git & GitHub</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Exploratory Data Analysis</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>Hypothesis Testing</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-green-600">Professional & Transferable Skills</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Self-management & Independence</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Problem-solving Under Pressure</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Data-driven Decision Making</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Route Optimization & Efficiency Analysis</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Reliability & Time Management</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Adaptability to Changing Conditions</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-green-600 rounded-full mr-3"></span>Independent Project Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+                    <p class="text-gray-600">Description of data analysis project. Details to be added.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+                    <p class="text-gray-600">Description of data visualization project. Details to be added.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+                    <p class="text-gray-600">Description of machine learning project. Details to be added.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md md:col-span-2 lg:col-span-1">
+                    <h3 class="text-xl font-semibold mb-2">Project 4</h3>
+                    <p class="text-gray-600">Description of SQL/database project. Details to be added.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Experience</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                    <h3 class="text-xl font-semibold mb-2">Independent Contractor & Long-Haul Trucker</h3>
+                    <p class="text-gray-600 mb-2">Self-employed | Multiple Years</p>
+                    <ul class="list-disc list-inside space-y-1 text-gray-700">
+                        <li>Led independent operations managing complex logistics and supply chain challenges</li>
+                        <li>Optimized routes and schedules using data analysis to maximize efficiency and profitability</li>
+                        <li>Made critical decisions under pressure, balancing safety, deadlines, and cost considerations</li>
+                        <li>Developed strong analytical skills through fuel efficiency tracking, maintenance scheduling, and performance metrics</li>
+                        <li>Demonstrated adaptability in rapidly changing market conditions and regulatory environments</li>
+                        <li>Managed end-to-end project lifecycles from contract negotiation to delivery completion</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Education</h2>
+            <div class="max-w-2xl mx-auto bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-2">Data Analysis & Software Development</h3>
+                <p class="text-gray-600 mb-2">Current Student | [Institution Name]</p>
+                <p class="text-gray-700">Pursuing comprehensive training in data analysis methodologies, programming fundamentals, and software development tools. Focus areas include statistical analysis, database management, and practical application of data science principles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Get In Touch</h2>
+            <p class="text-lg mb-6 max-w-2xl mx-auto">I'm excited about opportunities in data analysis and technology. Let's connect to discuss how my unique background can contribute to your team.</p>
+            <div class="space-y-2">
+                <p><strong>Email:</strong> [Your Email]</p>
+                <p><strong>LinkedIn:</strong> [Your LinkedIn Profile]</p>
+                <p><strong>GitHub:</strong> [Your GitHub Profile]</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
+```
